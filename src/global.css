@@ -1,0 +1,23 @@
+:root {
+    --background-color: #e6e6e6;
+    --primary-text-color: #1f1f1f;
+    --secondary-text-color: #2e2e2e;
+    --link-color: #4e5dff;
+
+    --max-page-width: 800px;
+
+    --navbar-height: 70px;
+}
+
+
+.dark-mode {
+    --background-color: #181818;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #bbbbbb;
+    --link-color: #fcd37a;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
