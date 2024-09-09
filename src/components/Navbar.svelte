@@ -70,6 +70,9 @@
     a {
         color: inherit;
     }
+    a:hover {
+        text-decoration: none;
+    }
 
     button {
         background-color: inherit;

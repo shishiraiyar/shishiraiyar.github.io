@@ -27,7 +27,7 @@
     }
 
     main {
-        margin-top: var(--navbar-height);
+        margin-top: calc(var(--navbar-height) + 2rem);
         width: min(100%, var(--max-page-width));
         margin-left: auto;
         margin-right: auto;
