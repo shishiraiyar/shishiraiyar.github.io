@@ -3,6 +3,11 @@
     import "../global.css"
 </script>
 
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</svelte:head>
 
 <section class="navigation">
     <Navbar></Navbar>
@@ -23,6 +28,9 @@
 
     main {
         margin-top: var(--navbar-height);
+        width: min(100%, var(--max-page-width));
+        margin-left: auto;
+        margin-right: auto;
     }
 
     

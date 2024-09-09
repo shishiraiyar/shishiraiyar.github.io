@@ -2,13 +2,12 @@
     --background-color: #e6e6e6;
     --primary-text-color: #1f1f1f;
     --secondary-text-color: #2e2e2e;
-    --link-color: #4e5dff;
+    --link-color: #3641b2;
 
     --max-page-width: 800px;
 
     --navbar-height: 70px;
 }
-
 
 .dark-mode {
     --background-color: #181818;
@@ -19,5 +18,17 @@
 
 body {
     background-color: var(--background-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-text-color);
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;     */
+    font-family: "Roboto Mono";
+    
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--link-color)
 }

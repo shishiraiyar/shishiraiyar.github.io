@@ -37,7 +37,6 @@
     </nav>
     
 </div>
-<!-- {dark ? '☀️' : '🌙'} -->
 
 <style>
     .container {
@@ -69,7 +68,6 @@
     }
 
     a {
-        text-decoration: none;
         color: inherit;
     }
 

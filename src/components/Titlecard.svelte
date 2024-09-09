@@ -20,14 +20,7 @@
 
 <style>
     .container {
-        width: min(100%, var(--max-page-width));
-        margin: 2rem auto;
-        
-        background-color: var(--background-color);
-        color: var(--secondary-text-color);
-
         display: grid;
-
     }
 
     img {
@@ -52,6 +45,4 @@
         
     }
 
-
-  
 </style>
