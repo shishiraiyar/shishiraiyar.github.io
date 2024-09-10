@@ -93,5 +93,9 @@
         border: 1px solid var(--card-border-color);
     }
 
+    hr {
+        margin: 0;
+    }
+
 
 </style>
