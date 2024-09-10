@@ -7,6 +7,9 @@
     --card-background-color: #ffffff;
     --card-border-color: #bbb;
 
+    --button-background-color: #f6f6f6;
+    --button-border-color: var(--card-border-color);
+
     --max-page-width: 800px;
 
     --navbar-height: 70px;
@@ -20,6 +23,9 @@
 
     --card-background-color: #1f1f1f;
     --card-border-color: #525252;
+
+    --button-background-color: #252525;
+    --button-border-color: var(--card-border-color);
 }
 
 body {
@@ -41,4 +47,8 @@ a {
 
 a:hover{
     text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: var(--primary-text-color);
 }

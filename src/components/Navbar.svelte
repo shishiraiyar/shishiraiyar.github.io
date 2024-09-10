@@ -91,8 +91,8 @@
     }
 
     .nav-item:hover, .active {
-        background-color: var(--card-background-color);
-        border: 1px solid var(--card-border-color);
+        background-color: var(--button-background-color);
+        border: 1px solid var(--button-border-color);
     }
 
     hr {
