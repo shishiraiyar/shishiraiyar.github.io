@@ -4,6 +4,9 @@
     --secondary-text-color: #2e2e2e;
     --link-color: #3641b2;
 
+    --card-background-color: #ffffff;
+    --card-border-color: #bbb;
+
     --max-page-width: 800px;
 
     --navbar-height: 70px;
@@ -14,6 +17,9 @@
     --primary-text-color: #ffffff;
     --secondary-text-color: #bbbbbb;
     --link-color: #fcd37a;
+
+    --card-background-color: #1f1f1f;
+    --card-border-color: #525252;
 }
 
 body {
