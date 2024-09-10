@@ -19,7 +19,7 @@
         <div class="nav-item"><a href="/notes">Notes</a></div>
         <div class="nav-item"><a href="/projects">Projects</a></div>
         <div class="nav-item"><a href="/about">About Me</a></div>
-        <div class="nav-item">
+        <div>
             <button on:click={toggleDarkMode}> 
                 {#if dark}
                     <svg width="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,8 +35,8 @@
             </button>
         </div>
     </nav>
-    
 </div>
+<hr>
 
 <style>
     .container {
@@ -59,20 +59,20 @@
 
     nav {
         display: flex;
+        justify-content: space-between;
     }
     
-    .nav-item {
-        flex: 1 1;
+    nav > * {
         margin: 0 4px;
-        
+        padding: 4px 8px;
+        border-radius: 8px;
     }
 
     a {
         color: inherit;
-    }
-    a:hover {
         text-decoration: none;
     }
+
 
     button {
         background-color: inherit;
@@ -86,6 +86,11 @@
         font-size: 2rem;
         font-family:'Courier New', Courier, monospace;
         font-weight: 700;
+    }
+
+    .nav-item:hover {
+        background-color: var(--card-background-color);
+        border: 1px solid var(--card-border-color);
     }
 
 
