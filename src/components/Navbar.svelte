@@ -9,16 +9,18 @@
             document.body.classList.remove('dark-mode');
         }
     }
+
+    let active = 0;
 </script>
 
 <div class="container">
     <div class="logo-container">
-        <a href="/">HOME</a>
+        <a href="/" on:click={()=>{active=0}}>HOME</a>
     </div>
     <nav>
-        <a class="nav-item" href="/notes"><span>Notes</span></a>
-        <a class="nav-item" href="/projects"><span>Projects</span></a>
-        <a class="nav-item" href="/about"><span>About Me</span></a>
+        <a class="nav-item" class:active={active == 1} on:click={()=>{active=1}} href="/notes"><span>Notes</span></a>
+        <a class="nav-item" class:active={active == 2} on:click={()=>{active=2}} href="/projects"><span>Projects</span></a>
+        <a class="nav-item" class:active={active == 3} on:click={()=>{active=3}} href="/about"><span>About Me</span></a>
 
         <button on:click={toggleDarkMode}> 
             {#if dark}
@@ -88,7 +90,7 @@
         font-weight: 700;
     }
 
-    .nav-item:hover {
+    .nav-item:hover, .active {
         background-color: var(--card-background-color);
         border: 1px solid var(--card-border-color);
     }
