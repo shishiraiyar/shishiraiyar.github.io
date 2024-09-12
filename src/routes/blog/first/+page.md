@@ -1,3 +1,8 @@
+---
+title: First Post
+date: "2024-09-12"
+---
+
 # Heading 1
 ## Heading 2
 
@@ -8,4 +13,3 @@
 for i in range(100):
     print("Hello world")
 ```
-

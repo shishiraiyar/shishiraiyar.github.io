@@ -13,6 +13,9 @@ export default {
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [mdsvex ({
-		extensions: ['.md']
+		extensions: ['.md'],
+		layout: {
+			blog: './src/routes/blog/BlogPost.svelte'
+		},
 	})]
 };
