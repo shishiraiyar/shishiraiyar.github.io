@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex';
+import relativeImages from "mdsvex-relative-images";
 
 export default {
 	kit: {
@@ -17,5 +18,6 @@ export default {
 		layout: {
 			blog: './src/routes/blog/BlogPost.svelte'
 		},
+		remarkPlugins: [relativeImages]
 	})]
 };

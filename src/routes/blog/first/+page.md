@@ -13,3 +13,5 @@ date: "2024-09-12"
 for i in range(100):
     print("Hello world")
 ```
+
+![An apple](./images/apple.jpg)
