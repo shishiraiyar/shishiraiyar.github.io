@@ -15,9 +15,6 @@ export default {
 	extensions: ['.svelte', '.md'],
 	preprocess: [mdsvex ({
 		extensions: ['.md'],
-		layout: {
-			blog: './src/routes/blog/BlogPost.svelte'
-		},
 		remarkPlugins: [relativeImages]
 	})]
 };

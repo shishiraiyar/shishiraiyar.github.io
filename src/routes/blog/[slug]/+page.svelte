@@ -1,12 +1,12 @@
 <script>
-    export let title;
-    export let date;
+    export let data;
 </script>
 
 <article>
-    <h1>{title}</h1>
-    <p>Published: {date}</p>
-    <slot />
+    <h1>{data.title}</h1>
+    <p>Published: {data.date}</p>
+    
+    <svelte:component this={data.content} />
 </article>
 
 <style>
