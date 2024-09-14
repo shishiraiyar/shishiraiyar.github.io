@@ -2,15 +2,15 @@
     export let data;
 </script>
 
-<article>
+<div>
     <h1>{data.title}</h1>
     <p>Published: {data.date}</p>
     
     <svelte:component this={data.content} />
-</article>
+</div>
 
 <style>
-    article :global(img) {
+    div :global(img) {
         display: block;
         margin: 0 auto;
         width: min(100%, 500px)
