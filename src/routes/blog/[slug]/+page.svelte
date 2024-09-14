@@ -1,5 +1,6 @@
 <script>
     export let data;
+    import "/src/styles/prism-okaidia.css";
 </script>
 
 <div>
