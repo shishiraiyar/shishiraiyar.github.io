@@ -6,13 +6,17 @@
 
 <h1>My Projects</h1>
 
-<div class="container">
+<!-- <div class="container">
     <Projectcard></Projectcard>
     <Projectcard></Projectcard>
     <Projectcard></Projectcard>
     <Projectcard></Projectcard>
 
-</div>
+</div> -->
+
+<p>
+    This page is under construction 🏗️🚧
+</p>
 
 <style>
     .container {
