@@ -1,10 +1,16 @@
+<script>
+    export let name;
+    export let description;
+    export let source;
+    export let demo;
+</script>
+
+
 <div class="container">
-    <h2>Book Companion</h2>
-    <p>A library management system built for a charity that provides books to underprivileged children</p>
-
-    <a href="#">Source</a>
-    <a href="#">Demo</a>
-
+    <h2>{name}</h2>
+    <p>{description}</p>
+    <a href={source}>Source</a>
+    <a href={demo}>Demo</a>
 </div>
 
 <style>

@@ -1,22 +1,19 @@
 <script>
     import Projectcard from "../../components/Projectcard.svelte";
 
-
+    export let data;
 </script>
-
-<h1>My Projects</h1>
-
-<!-- <div class="container">
-    <Projectcard></Projectcard>
-    <Projectcard></Projectcard>
-    <Projectcard></Projectcard>
-    <Projectcard></Projectcard>
-
-</div> -->
 
 <p>
     This page is under construction 🏗️🚧
 </p>
+
+<h1>My Projects</h1>
+<div class="container">
+    {#each data.projects as project}
+        <Projectcard {...project} />
+    {/each}
+</div>
 
 <style>
     .container {
