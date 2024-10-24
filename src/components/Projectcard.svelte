@@ -35,4 +35,9 @@
         padding: 4px 8px;
         cursor: pointer;
     }
+
+    p {
+        font-size: 0.9rem;
+        font-family: 'Open Sans', sans-serif;
+    }
 </style>

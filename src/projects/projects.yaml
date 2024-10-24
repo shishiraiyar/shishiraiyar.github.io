@@ -1,12 +1,15 @@
 projects:
-  - name: Book Companion
-    source: https://google.com
-    demo: https://apple.com
+  - name: shishira.com
+    source: https://github.com/shishiraiyar/shishiraiyar.github.io
+    demo: https://shishira.com/
     description: >-
-      A website built for a charity that helps children borrow books.
+      The website that you're currently on. It's a static site built using SvelteKit and hosted on Github Pages.
 
-  - name: Portfolio
-    source: https://google.com
-    demo: https://apple.com
+  - name: Lifebuoy
+    source: https://github.com/shishiraiyar/lifebouy
+    # demo: https://apple.com
     description: >-
-      This website
+      A flood rescue system that uses a mesh-network of microcontrollers on floating buoys to map the location and status of flood victims
+
+  - name: Face Recognition door lock
+  
