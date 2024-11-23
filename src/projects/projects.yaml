@@ -5,11 +5,65 @@ projects:
     description: >-
       The website that you're currently on. It's a static site built using SvelteKit and hosted on Github Pages.
 
+  - name: RVSAT
+
   - name: Lifebuoy
-    source: https://github.com/shishiraiyar/lifebouy
-    # demo: https://apple.com
+    source: https://github.com/shishiraiyar/duck-hack4soc
     description: >-
-      A flood rescue system that uses a mesh-network of microcontrollers on floating buoys to map the location and status of flood victims
+      A flood rescue system that uses a self-healing mesh-network of microcontrollers on floating buoys to map the location and status of victims.
 
   - name: Face Recognition door lock
+    source: https://github.com/shishiraiyar/face-recognition-pi
+    description: >-
+      A door lock that opens the door based on face recognition. Also supports remote unlock and intruder detection
   
+  - name: BookMyShow++
+    source: https://github.com/shishiraiyar/bookMyShowplusplus
+    description: >-
+      A web app that lets users book movie tickets. It also comes with a map that shows theatre locations and a chatbot that helps users with their queries.
+
+  - name: Home Lab
+    source: https://github.com/shishiraiyar/pilab
+    description: >-
+      Docker compose for setting up tailscale, nginx, calibre and other services. Also contains ARM templates for an Azure VM that acts as a proxy.
+      
+
+  - name: healthCompanion
+
+  - name: Pothole Detector
+
+  - name: HardwarePasswordManager
+    source: https://github.com/shishiraiyar/revahack
+    description: >-
+      [Write later]
+
+  - name: accidentDetector
+
+  - name: Proximity Networking
+    source: https://github.com/shishiraiyar/proximity-networking
+    description: >-
+      A proximity based networking system that allows entrepreneurs and developers to connect with each other during events and conferences.
+
+  - name: Disastometer
+    source: https://github.com/shishiraiyar/disastometer
+    description: >-
+      An image classification model that detects and identifies natural disasters like floods, fires and landslides.
+
+  # - name: Enigma Jit
+  #   source: https://github.com/aswarthm/enigma-jit
+  #   description: >-
+  #     [I don't remember at all lmao. Check later]
+
+  - name: Chain reaction
+
+  - name: Smart Home
+
+  - name: Grade Calculator
+    source: https://github.com/shishiraiyar/grade-calculator
+    description: >-
+      [Write Later]
+
+  - name: Book Companion
+    source: https://github.com/shishiraiyar/bookCompanion
+    description: >-
+      My first ever hackathon project (makes me nostalgic). It's a library management system for a charity that hands out books in an orphanage.
