@@ -4,10 +4,6 @@
     export let data;
 </script>
 
-<p>
-    This page is under construction 🏗️🚧
-</p>
-
 <h1>My Projects</h1>
 <div class="container">
     {#each data.projects as project}
