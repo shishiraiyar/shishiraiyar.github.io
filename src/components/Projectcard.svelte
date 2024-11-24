@@ -9,8 +9,12 @@
 <div class="container">
     <h2>{name}</h2>
     <p>{description}</p>
-    <a href={source}>Source</a>
-    <a href={demo}>Demo</a>
+    {#if source}
+        <a href={source}>Source</a>
+    {/if}
+    {#if demo}
+        <a href={demo}>Demo</a>
+    {/if}
 </div>
 
 <style>

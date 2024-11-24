@@ -7,7 +7,7 @@ projects:
 
   - name: RVSAT
     description: >-
-      A microbiological satellite built by Team Antariksh at RVCE.
+      A microbiological satellite built by Team Antariksh at RVCE. I worked on electronics and software.
     
   - name: Lifebuoy
     source: https://github.com/shishiraiyar/duck-hack4soc
