@@ -6,7 +6,9 @@ projects:
       The website that you're currently on. It's a static site built using SvelteKit and hosted on Github Pages.
 
   - name: RVSAT
-
+    description: >-
+      A microbiological satellite built by Team Antariksh at RVCE.
+    
   - name: Lifebuoy
     source: https://github.com/shishiraiyar/duck-hack4soc
     description: >-
@@ -15,7 +17,7 @@ projects:
   - name: Face Recognition door lock
     source: https://github.com/shishiraiyar/face-recognition-pi
     description: >-
-      A door lock that opens the door based on face recognition. Also supports remote unlock and intruder detection
+      A door lock that works based on face recognition. It also supports remote unlock and intruder detection.
   
   - name: BookMyShow++
     source: https://github.com/shishiraiyar/bookMyShowplusplus
@@ -28,16 +30,26 @@ projects:
       Docker compose for setting up tailscale, nginx, calibre and other services. Also contains ARM templates for an Azure VM that acts as a proxy.
       
 
-  - name: healthCompanion
+  - name: HealthCompanion
+    source: https://github.com/shishiraiyar/foodCompanion
+    description: >-
+      A single solution for all your health needs. 
+      It includes nutrition tracking using image recognition, doctor appointments, IoT based tablet reminders and privacy protected heath reports among other things.
 
-  - name: Pothole Detector
+  - name: PotholeDetector
+    source: https://github.com/shishiraiyar/JITHACK
+    description: >-
+      A system that detects potholes on roads using Sony Spresence. Pothole density is overlaid on a map to help drivers pick the best route.
 
   - name: HardwarePasswordManager
     source: https://github.com/shishiraiyar/revahack
     description: >-
-      [Write later]
+      A USB tool that generates and stores passwords for different websites. The passwords stored are encrypted and require a master password and a time-based OTP to access.
 
-  - name: accidentDetector
+  - name: AccidentDetector
+    source: https://github.com/shishiraiyar/accident-detector
+    description: >-
+      A system that detects road accidents using ML. A dashboard of accidents is shown to first responders. There is also an app that lets users report accidents.
 
   - name: Proximity Networking
     source: https://github.com/shishiraiyar/proximity-networking
@@ -54,16 +66,41 @@ projects:
   #   description: >-
   #     [I don't remember at all lmao. Check later]
 
-  - name: Chain reaction
-
-  - name: Smart Home
-
-  - name: Grade Calculator
-    source: https://github.com/shishiraiyar/grade-calculator
+  - name: ChainReaction
+    source: https://github.com/shishiraiyar/chain-reaction-flask
     description: >-
-      [Write Later]
+      A web clone of the android game Chain Reaction. It supports online multiplayer using websockets.
+
+  # - name: Smart Home
+  #   source: https://github.com/shishiraiyar/silicon-rush-smart-home
+  #   description: >-
+  #     An IoT 
+
+  # - name: Grade Calculator
+  #   source: https://github.com/shishiraiyar/grade-calculator
+  #   description: >-
+  #     [Write Later]
+
+  - name: Avionics Data Logger
+    source: https://github.com/shishiraiyar/TMS570LC4357
+    description: >-
+      A data logger that reads data from a CAN bus and logs it in a rugged data key. FAT32 file system is implemented over SPI on the datakey.
 
   - name: Book Companion
     source: https://github.com/shishiraiyar/bookCompanion
     description: >-
       My first ever hackathon project (makes me nostalgic). It's a library management system for a charity that hands out books in an orphanage.
+
+  - name: Image Processing
+    source: https://github.com/shishiraiyar/Image-processing-flask
+    description: >-
+      My own implementation of Kernel Convolution and Image Steganography using only Numpy. It's exposed as a web app using Flask.
+
+  - name: Tower of Hanoi
+    source: https://github.com/shishiraiyar/BinaryTowerOfHanoi
+    description: >-
+      A web based animation of the solution to the Tower of Hanoi problem using P5.js.
+
+  - name: 2048
+    source: https://github.com/shishiraiyar/2048
+    description: My (terrible) implementation of the game 2048 in C.
