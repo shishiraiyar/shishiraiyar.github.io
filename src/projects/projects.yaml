@@ -61,6 +61,11 @@ projects:
     description: >-
       An image classification model that detects and identifies natural disasters like floods, fires and landslides.
 
+  - name: Ship Detection
+    source: https://github.com/shishiraiyar/ship-detection
+    description: >-
+      A Convolutional Neural Network that detects ships in satellite images. It's trained using PyTorch on a Kaggle dataset of 4000 images. 
+
   # - name: Enigma Jit
   #   source: https://github.com/aswarthm/enigma-jit
   #   description: >-
