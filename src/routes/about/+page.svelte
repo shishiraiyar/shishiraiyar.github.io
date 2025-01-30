@@ -8,7 +8,7 @@
 
     <h2>My links</h2>
     <ul>
-        <!-- <li><a href="mailto:me@shishira.com">me@shishira.com</a></li> -->
+        <li><a href="mailto:me@shishira.com">me@shishira.com</a></li>
         <li><a href="https://github.com/shishiraiyar">Github</a></li>
         <li><a href="https://www.linkedin.com/in/shishiraiyar/">LinkedIn</a></li>
         <li><a href="https://goodreads.com/shishiraiyar">Goodreads</a></li>
