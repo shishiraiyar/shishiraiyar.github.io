@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"js-yaml": "^4.1.0"
+		"js-yaml": "^4.1.0",
+		"remark-captions": "^2.2.4"
 	}
 }

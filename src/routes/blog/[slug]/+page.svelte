@@ -32,4 +32,8 @@
         margin-top: 3rem;
     }
 
+    :global(figcaption) {
+        text-align: center;
+    }
+
 </style>
