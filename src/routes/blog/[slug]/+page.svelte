@@ -32,7 +32,7 @@
         margin-top: 3rem;
     }
 
-    :global(figcaption) {
+    div :global(figcaption) {
         text-align: center;
     }
 
