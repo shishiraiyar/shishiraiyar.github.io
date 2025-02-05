@@ -1,20 +1,18 @@
 <script>
     export let name;
     export let description;
-    export let source;
-    export let demo;
+    export let links = [];
 </script>
 
 
 <div class="container">
     <h2>{name}</h2>
     <p>{description}</p>
-    {#if source}
-        <a href={source}>Source</a>
-    {/if}
-    {#if demo}
-        <a href={demo}>Demo</a>
-    {/if}
+    <div class="links">
+        {#each links as link}
+            <a href={link.url}>{link.name}</a>        
+        {/each}
+    </div>
 </div>
 
 <style>
@@ -38,6 +36,7 @@
         border-radius: 12px;
         padding: 4px 8px;
         cursor: pointer;
+        margin-right: 8px;
     }
 
     p {

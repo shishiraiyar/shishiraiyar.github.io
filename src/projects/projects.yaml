@@ -1,111 +1,159 @@
 projects:
   - name: shishira.com
-    source: https://github.com/shishiraiyar/shishiraiyar.github.io
-    demo: https://shishira.com/
     description: >-
       The website that you're currently on. It's a static site built using SvelteKit and hosted on Github Pages.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/shishiraiyar.github.io
+      - name: Demo
+        url: https://shishira.com/
 
   - name: RVSAT
     description: >-
-      A microbiological satellite built by Team Antariksh at RVCE. I worked on electronics and software.
+      A microbiological payload built by Team Antariksh at RVCE. It was launched on PSLV - C60 mission in December 2024.
+    links:
+      - name: Blog
+        url: https://shishira.com/blog/rvsat
+      - name: Website
+        url: https://teamantariksh.in/
     
   - name: Lifebuoy
-    source: https://github.com/shishiraiyar/duck-hack4soc
     description: >-
       A flood rescue system that uses a self-healing mesh-network of microcontrollers on floating buoys to map the location and status of victims.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/duck-hack4soc
 
   - name: Face Recognition door lock
-    source: https://github.com/shishiraiyar/face-recognition-pi
     description: >-
       A door lock that works based on face recognition. It also supports remote unlock and intruder detection.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/face-recognition-pi
   
   - name: BookMyShow++
-    source: https://github.com/shishiraiyar/bookMyShowplusplus
     description: >-
       A web app that lets users book movie tickets. It also comes with a map that shows theatre locations and a chatbot that helps users with their queries.
+    links: 
+      - name: Source
+        url: https://github.com/shishiraiyar/bookMyShowplusplus
 
   - name: Home Lab
-    source: https://github.com/shishiraiyar/pilab
     description: >-
       Docker compose for setting up tailscale, nginx, calibre and other services. Also contains ARM templates for an Azure VM that acts as a proxy.
+    links: 
+      - name: Source
+        url: https://github.com/shishiraiyar/pilab
       
 
   - name: HealthCompanion
-    source: https://github.com/shishiraiyar/foodCompanion
     description: >-
       A single solution for all your health needs. 
       It includes nutrition tracking using image recognition, doctor appointments, IoT based tablet reminders and privacy protected heath reports among other things.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/foodCompanion
 
   - name: PotholeDetector
-    source: https://github.com/shishiraiyar/JITHACK
     description: >-
       A system that detects potholes on roads using Sony Spresence. Pothole density is overlaid on a map to help drivers pick the best route.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/JITHACK
 
   - name: HardwarePasswordManager
-    source: https://github.com/shishiraiyar/revahack
     description: >-
       A USB tool that generates and stores passwords for different websites. The passwords stored are encrypted and require a master password and a time-based OTP to access.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/revahack
 
   - name: AccidentDetector
-    source: https://github.com/shishiraiyar/accident-detector
     description: >-
       A system that detects road accidents using ML. A dashboard of accidents is shown to first responders. There is also an app that lets users report accidents.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/accident-detector
 
   - name: Proximity Networking
-    source: https://github.com/shishiraiyar/proximity-networking
     description: >-
       A proximity based networking system that allows entrepreneurs and developers to connect with each other during events and conferences.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/proximity-networking
 
   - name: Disastometer
-    source: https://github.com/shishiraiyar/disastometer
     description: >-
       An image classification model that detects and identifies natural disasters like floods, fires and landslides.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/disastometer
 
   - name: Ship Detection
-    source: https://github.com/shishiraiyar/ship-detection
     description: >-
       A Convolutional Neural Network that detects ships in satellite images. It's trained using PyTorch on a Kaggle dataset of 4000 images. 
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/ship-detection
 
   # - name: Enigma Jit
-  #   source: https://github.com/aswarthm/enigma-jit
   #   description: >-
   #     [I don't remember at all lmao. Check later]
+      # links:
+      #   - name: Source
+      #     url:
 
   - name: ChainReaction
-    source: https://github.com/shishiraiyar/chain-reaction-flask
     description: >-
       A web clone of the android game Chain Reaction. It supports online multiplayer using websockets.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/chain-reaction-flask
 
   # - name: Smart Home
-  #   source: https://github.com/shishiraiyar/silicon-rush-smart-home
   #   description: >-
   #     An IoT 
+      # links:
+      #   - name: Source
+      #     url: https://github.com/shishiraiyar/silicon-rush-smart-home
 
   # - name: Grade Calculator
-  #   source: https://github.com/shishiraiyar/grade-calculator
   #   description: >-
   #     [Write Later]
+      # links:
+      #   - name: Source
+      #     url: https://github.com/shishiraiyar/grade-calculator
 
   - name: Avionics Data Logger
-    source: https://github.com/shishiraiyar/TMS570LC4357
     description: >-
       A data logger that reads data from a CAN bus and logs it in a rugged data key. FAT32 file system is implemented over SPI on the datakey.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/TMS570LC4357
 
   - name: Book Companion
-    source: https://github.com/shishiraiyar/bookCompanion
     description: >-
       My first ever hackathon project (makes me nostalgic). It's a library management system for a charity that hands out books in an orphanage.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/bookCompanion
 
   - name: Image Processing
-    source: https://github.com/shishiraiyar/Image-processing-flask
     description: >-
       My own implementation of Kernel Convolution and Image Steganography using only Numpy. It's exposed as a web app using Flask.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/Image-processing-flask
 
   - name: Tower of Hanoi
-    source: https://github.com/shishiraiyar/BinaryTowerOfHanoi
     description: >-
       A web based animation of the solution to the Tower of Hanoi problem using P5.js.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/BinaryTowerOfHanoi
 
   - name: 2048
-    source: https://github.com/shishiraiyar/2048
     description: My (terrible) implementation of the game 2048 in C.
+    links:
+      - name: Source
+        url: https://github.com/shishiraiyar/2048
