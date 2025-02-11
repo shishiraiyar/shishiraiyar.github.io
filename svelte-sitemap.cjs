@@ -1,4 +1,5 @@
 module.exports = {
     domain: 'https://shishira.com',
-    trailingSlashes: true
+    trailingSlashes: true,
+    ignore: "notes"
 };
