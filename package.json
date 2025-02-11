@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"postbuild": "npx svelte-sitemap"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -20,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"js-yaml": "^4.1.0",
-		"remark-captions": "^2.2.4"
+		"remark-captions": "^2.2.4",
+		"svelte-sitemap": "^3.0.0-next.8"
 	}
 }
