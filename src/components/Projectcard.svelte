@@ -30,7 +30,6 @@
 
     a {
         text-decoration: none;
-        color: var(--secondary-text-color);
         border: 1px solid var(--button-border-color);
         background-color: var(--button-background-color);
         border-radius: 12px;

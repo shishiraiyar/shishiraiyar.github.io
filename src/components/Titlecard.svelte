@@ -10,7 +10,7 @@
     <div class="text">
         <h1>Hey, I'm Shishira</h1>
         <p>I like building things, which nowadays often involves programming</p>
-        <p>I'm also into reading, history, space stuff among other things </p>
+        <p>I'm also into reading, history, space, videogames among other things </p>
     </div>
 
 
